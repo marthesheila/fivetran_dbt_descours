@@ -1,1 +1,5 @@
+target/
+dbt_packages/
+logs/
 descours_and_cabaud/
+.user.yml
