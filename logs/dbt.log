@@ -1261,3 +1261,48 @@ where id = 1;
 [0m10:50:43.815525 [debug] [MainThread]: Connection 'debug' was properly closed.
 [0m10:50:43.816524 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176C6BF2D50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176C9162CC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000176C7A55070>]}
 [0m10:50:43.817530 [debug] [MainThread]: Flushing usage events
+[0m11:45:29.353744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50C58B8F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E5094D1160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50E7BD2B0>]}
+
+
+============================== 11:45:29.353744 | 7e50b43d-454c-4919-a9d9-63ee966d7b04 ==============================
+[0m11:45:29.353744 [info ] [MainThread]: Running with dbt=1.8.5
+[0m11:45:29.353744 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'C:\\Users\\marthe.gnitedemg\\Documents\\fivetran_dbt_descours\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\marthe.gnitedemg\\Documents\\fivetran_dbt_descours', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt deps', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:45:29.572754 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7e50b43d-454c-4919-a9d9-63ee966d7b04', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F0A1220>]}
+[0m11:45:29.705362 [debug] [MainThread]: Set downloads directory='C:\Users\MARTHE~1.GNI\AppData\Local\Temp\dbt-downloads-ynj5qhiw'
+[0m11:45:29.706487 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m11:45:29.833982 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m11:45:29.835939 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log.json
+[0m11:45:29.914048 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_log.json 200
+[0m11:45:29.930488 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json
+[0m11:45:29.987241 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/fivetran/fivetran_utils.json 200
+[0m11:45:29.987241 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json
+[0m11:45:30.051524 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/spark_utils.json 200
+[0m11:45:30.053677 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json
+[0m11:45:30.337457 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/calogica/dbt_date.json 200
+[0m11:45:30.337457 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m11:45:30.400170 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m11:45:30.420763 [info ] [MainThread]: Updating lock file in file path: C:\Users\marthe.gnitedemg\Documents\fivetran_dbt_descours/package-lock.yml
+[0m11:45:30.420763 [debug] [MainThread]: Set downloads directory='C:\Users\MARTHE~1.GNI\AppData\Local\Temp\dbt-downloads-a5pnvrox'
+[0m11:45:30.440292 [info ] [MainThread]: Installing fivetran/fivetran_log
+[0m11:45:32.068575 [info ] [MainThread]: Installed from version 1.9.0
+[0m11:45:32.070658 [info ] [MainThread]: Up to date!
+[0m11:45:32.072266 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7e50b43d-454c-4919-a9d9-63ee966d7b04', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F2AD010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F2ACEC0>]}
+[0m11:45:32.073346 [info ] [MainThread]: Installing fivetran/fivetran_utils
+[0m11:45:32.463875 [info ] [MainThread]: Installed from version 0.4.10
+[0m11:45:32.463875 [info ] [MainThread]: Up to date!
+[0m11:45:32.463875 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7e50b43d-454c-4919-a9d9-63ee966d7b04', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F2ACEC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F2AD400>]}
+[0m11:45:32.463875 [info ] [MainThread]: Installing dbt-labs/spark_utils
+[0m11:45:32.783255 [info ] [MainThread]: Installed from version 0.3.0
+[0m11:45:32.783993 [info ] [MainThread]: Up to date!
+[0m11:45:32.787271 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7e50b43d-454c-4919-a9d9-63ee966d7b04', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F2AD400>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F1A8260>]}
+[0m11:45:32.787271 [info ] [MainThread]: Installing calogica/dbt_date
+[0m11:45:33.266615 [info ] [MainThread]: Installed from version 0.10.1
+[0m11:45:33.267112 [info ] [MainThread]: Up to date!
+[0m11:45:33.267112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7e50b43d-454c-4919-a9d9-63ee966d7b04', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F32A840>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F32B380>]}
+[0m11:45:33.267112 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m11:45:34.253691 [info ] [MainThread]: Installed from version 1.2.0
+[0m11:45:34.253691 [info ] [MainThread]: Up to date!
+[0m11:45:34.253691 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '7e50b43d-454c-4919-a9d9-63ee966d7b04', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F289EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F28A120>]}
+[0m11:45:34.278294 [debug] [MainThread]: Command `dbt deps` succeeded at 11:45:34.278294 after 5.16 seconds
+[0m11:45:34.279284 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50E664770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50F18B560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E50ED3E1B0>]}
+[0m11:45:34.281364 [debug] [MainThread]: Flushing usage events
